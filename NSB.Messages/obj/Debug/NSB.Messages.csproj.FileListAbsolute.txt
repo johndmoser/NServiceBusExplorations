@@ -1,0 +1,5 @@
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Messages\bin\Debug\NSB.Messages.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Messages\bin\Debug\NSB.Messages.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Messages\obj\Debug\NSB.Messages.csprojResolveAssemblyReference.cache
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Messages\obj\Debug\NSB.Messages.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Messages\obj\Debug\NSB.Messages.pdb

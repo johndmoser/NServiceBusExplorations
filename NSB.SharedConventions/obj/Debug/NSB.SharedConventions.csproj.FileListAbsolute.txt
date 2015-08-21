@@ -1,0 +1,7 @@
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\bin\Debug\NSB.SharedConventions.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\bin\Debug\NSB.SharedConventions.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\bin\Debug\NServiceBus.Core.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\bin\Debug\NServiceBus.Core.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\bin\Debug\NServiceBus.Core.xml
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\obj\Debug\NSB.SharedConventions.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\obj\Debug\NSB.SharedConventions.pdb

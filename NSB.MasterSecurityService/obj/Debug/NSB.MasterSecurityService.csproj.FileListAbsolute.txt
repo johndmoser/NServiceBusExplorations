@@ -1,0 +1,9 @@
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\bin\Debug\NSB.MasterSecurityService.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\bin\Debug\NSB.MasterSecurityService.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\bin\Debug\NSB.Commands.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\bin\Debug\NSB.Events.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\bin\Debug\NSB.Commands.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\bin\Debug\NSB.Events.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\obj\Debug\NSB.MasterSecurityService.csprojResolveAssemblyReference.cache
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\obj\Debug\NSB.MasterSecurityService.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.MasterSecurityService\obj\Debug\NSB.MasterSecurityService.pdb

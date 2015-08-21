@@ -1,0 +1,4 @@
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Events\bin\Debug\NSB.Events.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Events\bin\Debug\NSB.Events.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Events\obj\Debug\NSB.Events.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Events\obj\Debug\NSB.Events.pdb

@@ -1,0 +1,4 @@
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Commands\bin\Debug\NSB.Commands.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Commands\bin\Debug\NSB.Commands.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Commands\obj\Debug\NSB.Commands.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Commands\obj\Debug\NSB.Commands.pdb
