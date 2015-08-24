@@ -9,6 +9,7 @@ namespace NSB.Events
     public class MasterSecurityAdded
     {
         public Guid SecurityGuid { get; set; }
+        public string SecurityName { get; set; }
 
     }
 }

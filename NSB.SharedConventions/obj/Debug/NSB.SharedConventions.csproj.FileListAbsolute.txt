@@ -5,3 +5,4 @@ C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Shared
 C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\bin\Debug\NServiceBus.Core.xml
 C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\obj\Debug\NSB.SharedConventions.dll
 C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\obj\Debug\NSB.SharedConventions.pdb
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.SharedConventions\obj\Debug\NSB.SharedConventions.csprojResolveAssemblyReference.cache

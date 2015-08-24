@@ -55,7 +55,7 @@ namespace NSB.Starter
                     {
                         SecurityGuid = Guid.NewGuid(),
                         SecurityName = securityName,
-                        Exchange = "NYSE"
+                        Exchange = exchange
                     });
                 }
 
