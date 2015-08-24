@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="AddMasterSecurity.cs" />
     <Compile Include="AddTrade.cs" />
-    <Compile Include="DeleteSecurity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UpdateSecurityPrice.cs" />
   </ItemGroup>

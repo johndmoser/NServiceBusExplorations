@@ -25,7 +25,7 @@ namespace NSB.MasterSecurityServer
             MasterSecurityAdded securityAdded = new MasterSecurityAdded() { SecurityGuid = message.SecurityGuid };
             Console.WriteLine();
             Console.WriteLine("Publishing SecurityAdded event.");
-            bus.Publish(new MasterSecurityAdded() {SecurityGuid = message.SecurityGuid});
+            bus.Publish(new MasterSecurityAdded() {SecurityGuid = message.SecurityGuid, ConfirmedSecurityName = message.SecurityName});
         }
     }
 }
