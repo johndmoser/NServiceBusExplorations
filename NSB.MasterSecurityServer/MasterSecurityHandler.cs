@@ -22,10 +22,13 @@ namespace NSB.MasterSecurityServer
         {
             Console.WriteLine(@"Security '{0}' was added with Id '{1}' on the {2} exchange.", message.SecurityName, message.SecurityGuid, message.Exchange);
 
-            MasterSecurityAdded securityAdded = new MasterSecurityAdded() { SecurityGuid = message.SecurityGuid };
+            MasterSecurityAdded securityAdded = new MasterSecurityAdded() {
+                SecurityGuid = message.SecurityGuid,
+                ConfirmedSecurityName = message.SecurityName
+            };
             Console.WriteLine();
             Console.WriteLine("Publishing SecurityAdded event.");
-            bus.Publish(new MasterSecurityAdded() {SecurityGuid = message.SecurityGuid, ConfirmedSecurityName = message.SecurityName});
+            bus.Publish(securityAdded);
         }
     }
 }
