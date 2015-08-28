@@ -11,7 +11,7 @@ using NServiceBus;
 
 namespace NSB.PositionService
 {
-    public class PositionsHandler : IHandleMessages<PriceUpdated>, IHandleMessages<UpdatePosition>
+    public class PositionsHandler : IHandleMessages<PriceWasUpdated>, IHandleMessages<UpdatePosition>
     {
         private IBus bus;
 
@@ -22,12 +22,17 @@ namespace NSB.PositionService
 
         public void Handle(UpdatePosition message)
         {
+            Console.WriteLine();
             Console.WriteLine(@"Security {0} now has {1} shares.", message.SecurityName, message.Quantity);
         }
 
-        public void Handle(PriceUpdated message)
+        public void Handle(PriceWasUpdated message)
         {
-           Console.WriteLine(@"Security {0} has had a price update to ${1}", message.SecurityName, message.Price);
+            Console.WriteLine();
+            Console.WriteLine(@"Security {0} has had a price update to ${1}", message.SecurityName, message.Price);
+            Console.WriteLine();
+            Console.WriteLine("Recalculating portfolio positions...");
+         
         }
     }
 }

@@ -9,7 +9,7 @@ using NServiceBus;
 
 namespace NSB.PricingServer
 {
-    public class PriceHandler : IHandleMessages<UpdateSecurityPrice>, IHandleMessages<MasterSecurityAdded>
+    public class PriceHandler : IHandleMessages<UpdateSecurityPrice>, IHandleMessages<MasterSecurityWasAdded>
     {
         private IBus bus;
 
@@ -18,7 +18,7 @@ namespace NSB.PricingServer
             this.bus = bus;
         }
 
-        public void Handle(MasterSecurityAdded message)
+        public void Handle(MasterSecurityWasAdded message)
         {
             Console.WriteLine(@"Adding new Security {0} to pricing lookup tables...", message.SecurityGuid);
             // Update your lookup tables for pricing later on
@@ -31,7 +31,7 @@ namespace NSB.PricingServer
             Console.WriteLine();
 
             // Let others know about the update
-            bus.Publish(new PriceUpdated() {SecurityName = message.SecurityName, Price = message.Price});
+            bus.Publish(new PriceWasUpdated() {SecurityName = message.SecurityName, Price = message.Price});
         }
 
 

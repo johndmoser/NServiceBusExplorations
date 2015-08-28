@@ -20,14 +20,16 @@ namespace NSB.MasterSecurityServer
 
         public void Handle(AddMasterSecurity message)
         {
+            Console.WriteLine();
             Console.WriteLine(@"Security '{0}' was added with Id '{1}' on the {2} exchange.", message.SecurityName, message.SecurityGuid, message.Exchange);
 
-            MasterSecurityAdded securityAdded = new MasterSecurityAdded() {
+            MasterSecurityWasAdded securityAdded = new MasterSecurityWasAdded() {
                 SecurityGuid = message.SecurityGuid,
                 ConfirmedSecurityName = message.SecurityName
             };
             Console.WriteLine();
             Console.WriteLine("Publishing SecurityAdded event.");
+            Console.WriteLine();
             bus.Publish(securityAdded);
         }
     }

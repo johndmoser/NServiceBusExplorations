@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NSB.Events
 {
-    public class PriceUpdated
+    public class PriceWasUpdated
     {
         public string SecurityName { get; set; }
         public decimal Price { get; set; }

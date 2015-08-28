@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace NSB.Events
 {
-    public class PositionUpdated
+    public class MasterSecurityWasAdded
     {
-        public string Security { get; set; }
-        public int Quantity { get; set; }
+        public Guid SecurityGuid { get; set; }
+        public string ConfirmedSecurityName { get; set; }
+
     }
 }
