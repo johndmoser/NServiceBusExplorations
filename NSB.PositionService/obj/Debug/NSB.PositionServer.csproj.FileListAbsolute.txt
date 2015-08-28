@@ -14,3 +14,5 @@ C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.Positi
 C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.PositionService\bin\Debug\NServiceBus.Core.xml
 C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.PositionService\bin\Debug\NServiceBus.Host.pdb
 C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.PositionService\bin\Debug\NServiceBus.Host.xml
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.PositionService\bin\Debug\NSB.Commands.dll
+C:\Users\john.moser\Documents\Visual Studio 2015\Projects\NSB.Starter\NSB.PositionService\bin\Debug\NSB.Commands.pdb

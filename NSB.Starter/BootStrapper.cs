@@ -38,7 +38,21 @@ namespace NSB.Starter
                 if (char.ToUpper(keyInfo.KeyChar) == 'P')
                 {
                     Console.WriteLine();
-                    Console.WriteLine("No implementation for Position Update at this time..");
+                    Console.Write("Enter the Security Name:  ");
+                    var securityName = Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.Write(@"Enter the Number of Shares of {0}:  ", securityName);
+                    var quantity = Console.ReadLine();
+
+                    Bus.Send("NSB.PositionServer", new UpdatePosition()
+                    {
+                        SecurityName = securityName,
+                        Quantity = quantity
+                    }
+                        );
+
+                    Console.Write("Press any key to continue...");
                     Console.ReadLine();
                 }
 

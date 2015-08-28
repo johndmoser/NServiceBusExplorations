@@ -53,6 +53,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NSB.Commands\NSB.Commands.csproj">
+      <Project>{bf64a288-817b-4234-b6ec-f89f4085bde2}</Project>
+      <Name>NSB.Commands</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NSB.Events\NSB.Events.csproj">
       <Project>{8a1560e6-1976-4e9c-985b-cf14b6d568a1}</Project>
       <Name>NSB.Events</Name>

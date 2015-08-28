@@ -43,6 +43,7 @@
     <Compile Include="AddMasterSecurity.cs" />
     <Compile Include="AddTrade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdatePosition.cs" />
     <Compile Include="UpdateSecurityPrice.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
